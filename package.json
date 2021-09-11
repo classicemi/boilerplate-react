@@ -4,7 +4,12 @@
   "description": "react boilerplate project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:vite",
+    "build:es": "tsc",
+    "build:vite": "vite build",
+    "dev": "vite",
+    "start": "npm run dev",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
